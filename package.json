@@ -1,0 +1,15 @@
+{
+  "name": "blind-sample-review",
+  "version": "1.0.0",
+  "description": "食堂新食材封样盲评系统：收样登记 / 封样库位 / 盲评 / 回避 / 揭盲 / 结果复核（SQLite，零第三方依赖）",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}
